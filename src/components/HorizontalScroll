@@ -1,0 +1,14 @@
+import React from 'react';
+
+const HorizontalScroll = () => {
+  return (
+    <div style={{ overflowX: 'scroll', display: 'flex' }}>
+      {/* add items that will overflow horizontally */}
+      <div style={{ minWidth: '100vw' }}>
+        {/* your content here */}
+      </div>
+    </div>
+  );
+};
+
+export default HorizontalScroll;
